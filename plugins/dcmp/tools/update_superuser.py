@@ -26,9 +26,9 @@ def update_superuser(username):
 
 
 def main():
-    username = raw_input("Enter User Name: ")
+    username = input("Enter User Name: ")
     update_superuser(username)
-    print "Finished."
+    print("Finished.")
 
 
 if __name__ == "__main__":
